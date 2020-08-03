@@ -1,3 +1,4 @@
+
 body {
   font-size: 16px;
   color: #fff;
@@ -100,8 +101,8 @@ background-color: #69d3d6;
   
 }
 }
-#yo{
- visibility:hidden;
+#yo,#chick1,#chick2,#chick3{
+ visibility: hidden;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #left {
@@ -135,14 +136,13 @@ margin-top:3%;
 text-align: justify;
 background-color:  #69d3d6;
 }
-#yo{
+#yo,#chick1,#chick2,#chick3{
  visibility: hidden;
 }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -150,8 +150,16 @@ background-color:  #69d3d6;
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
-  
-  /*#collapsable-nav a { /* Collapsed nav menu text */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
@@ -202,9 +210,19 @@ background-color:  #69d3d6;
   text-align: justify;
   background-color:#69d3d6;
   }
+ #chick1,#chick2,#chick3{
+ visibility: visible;
+}
   #yo{
     visibility:visible; 
     color: red;
     text-decoration:none; 
   }
   /* End Header */
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
