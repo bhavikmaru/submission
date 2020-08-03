@@ -2,102 +2,114 @@ h1{
 text-align: center;
 }
 
-div {
+#left,#middle,#right {
   
   border: 1px solid black;
   float: left;
   padding: 10px;
   font-family:"Calibri";
 }
-span{
 
-  width: 50px;
-  height: 40px;
-  padding: 2px;
-  background: white;
+#Chinese,#Italian,#Indian{
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
 #left {
+  margin-top: 5%;
+color:black;
 margin-left:1%;
 width:29%;
 float:left;
 text-align: justify;
-background-color: #A52A2A;
+background-color: #7481f2;
 }
 #middle {
-margin-left:2%;
-width:30%;
+  margin-top: 5%;
+  color:black;
+margin-left:3%;
+width:29%;
 margin-right:1%;
 text-align: justify;
-background-color: #DEB887;
+background-color: #7250a6;
 float:left;
 }
 #right{
+  margin-top: 5%;
+  color:black;
 margin-right:1%;
 width:29%;
 float:right;
 text-align: justify;
-background-color: #FF2F2F;
+background-color: #69d3d6;
 }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-#left {
-display:inline-block;
-margin-top:3%;
+ #left {
+margin-top: 5%;
+color:black;
+margin-left:1%;
 width:45%;
 float:left;
-margin-left:1%;
 text-align: justify;
-background-color: #A52A2A;
+background-color: #7481f2;
 }
 #middle {
-display:inline-block;
-margin-top:3%;
+  margin-top: 5%;
+  color:black;
+margin-left:2%;
 width:45%;
-margin-left:1%;
 margin-right:1%;
 text-align: justify;
-background-color: #DEB887;
+background-color: #7250a6;
 float:right;
+
 }
 #right {
 margin-left:1%;
 margin-right:1%;
+color:black;
 display:inline-block;
 margin-top:3%;
 text-align: justify;
-background-color: #FF2F2F;
+background-color:  #69d3d6;
 }
 }
 
 @media (max-width: 767px) {
-#left {
-display:block;
-margin-top:3%;
-margin-right:2%;
-margin-left:2%;
-text-align: justify;
-background-color: #A52A2A;
-}
-#middle {
-display:block;
-margin-top:3%;
-margin-left:2%;
-margin-right:2%;
-text-align: justify;
-background-color: #DEB887;
-}
-#right {
-margin-left:2%;
-margin-right:2%;
-display:block;
-margin-top:3%;
-text-align: justify;
-background-color: #FF2F2F;
-}
+  #left {
+  display:block;
+  color:black;
+  margin-top:5%;
+  margin-right:4%;
+  margin-left:4%;
+  text-align: justify;
+  background-color: #7481f2 !important;
+  }
+  #middle {
+  display:block;
+  margin-top:3%;
+  color:black;
+  margin-left:4%;
+  margin-right:4%;
+  text-align: justify;
+  background-color: #7250a6;
+  }
+  #right {
+  margin-left:4%;
+  margin-right:4%;
+  color:black;
+  display:block;
+  margin-top:3%;
+  text-align: justify;
+  background-color:#69d3d6;
+  }
 }
 
 
